@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/global-variables.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
 <body>
@@ -34,13 +36,13 @@
       <div class="hero-content">
         <div class="hero-text">
           <div class="hero-content-img mb-2">
-            <img src="./logo-fe.png" alt="">
+            <img src="static/logo-fe.png" alt="">
           </div>
           <h1 class="hero-title mb-3">
-            Te ajudo a encontrar <span class="highlight">saúde</span> e <span class="highlight">qualidade de vida</span> através da Psicologia
+            Te ajudo a encontrar <span class="hl">saúde</span> e <span class="hl">qualidade de vida</span> através da Psicologia
           </h1>
           <p class="hero-subtitle mb-2">
-            Atendimento psicológico para <span class="highlight">adolescentes</span> e <span class="highlight">adultos</span>, presencial na Granja Viana e online para o mundo!
+            Atendimento psicológico para <span class="hl">adolescentes</span> e <span class="hl">adultos</span>, presencial na Granja Viana e online para o mundo!
           </p>
           <a href="#contato" class="round-button hero-button ">Vamos Conversar?</a>
         </div>
@@ -51,13 +53,37 @@
     </section>
   </main>
 
-  <section>
-    div
+  <section class="about-section">
+    <div class="about-container">
+      <div class="about-row-1">
+        <div class="about-video">
+          <iframe 
+            width="2000" 
+            src="https://www.youtube.com/embed/NpEaa2P7qZI" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="content about-text">
+          <h2 class="hl">Sobre Mim</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniacepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <a src="#" class="round-button about-button">Saiba mais sobre a minha jornada!</a>
+        </div>
+      </div>
+      <div class="about-row-2">
+        <div class="about-data">
+          
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="split-section">
     <div class="split-section__image">
-     
     </div>
     <div class="split-section__content d-flex flex-column align-items-center justify-content-center gap-4">
       <h2 class="title-section">Como te Ajudo?</h2>

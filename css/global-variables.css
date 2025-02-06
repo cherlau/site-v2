@@ -1,0 +1,55 @@
+:root {
+  /* Unidade base (recomendo 8px para seguir o padrão 8pt grid system) */
+  --space-unit: 8px;
+
+  /* Escala de espaçamento */
+  --space-xxxxs: calc(0.25 * var(--space-unit)); /* 2px */
+  --space-xxxs:  calc(0.5 * var(--space-unit));  /* 4px */
+  --space-xxs:   calc(1 * var(--space-unit));    /* 8px */
+  --space-xs:    calc(1.5 * var(--space-unit));  /* 12px */
+  --space-sm:    calc(2 * var(--space-unit));    /* 16px */
+  --space-md:    calc(3 * var(--space-unit));    /* 24px */
+  --space-lg:    calc(4 * var(--space-unit));    /* 32px */
+  --space-xl:    calc(6 * var(--space-unit));    /* 48px */
+  --space-xxl:   calc(8 * var(--space-unit));    /* 64px */
+  --space-xxxl:  calc(12 * var(--space-unit));   /* 96px */
+
+  /* Espaçamentos padrão para seções */
+  --section-padding: var(--space-xxl);
+  --section-margin: var(--space-xxl);
+  --content-padding: var(--space-lg);
+
+  /* Unidade base para fontes (recomendo 1rem = 16px por padrão) */
+  --font-base: 16px; /* 16px */
+
+  /* Escala de tamanhos de fonte */
+  --font-size-xxxxs: calc(0.5 * var(--font-base));  /* 8px */
+  --font-size-xxxs:  calc(0.75 * var(--font-base)); /* 12px */
+  --font-size-xxs:   calc(0.875 * var(--font-base));/* 14px */
+  --font-size-xs:    calc(1 * var(--font-base));    /* 16px */
+  --font-size-sm:    calc(1.15 * var(--font-base)); /* 18px */
+  --font-size-md:    calc(1.25 * var(--font-base)); /* 20px */
+  --font-size-lg:    calc(1.5 * var(--font-base));  /* 24px */
+  --font-size-xl:    calc(2 * var(--font-base));    /* 32px */
+  --font-size-xxl:    calc(2.25 * var(--font-base));  /* 36px */
+  --font-size-xxxl:   calc(3 * var(--font-base));    /* 48px */
+
+  /* Família de fontes padrão */
+  --font-family-primary: 'Roboto', sans-serif;
+  --font-family-secondary: 'Open Sans', sans-serif;
+
+  /* Pesos de fonte */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Altura da linha (line-height) */
+  --line-height-sm: 1.2;
+  --line-height-md: 1.5;
+  --line-height-lg: 1.8;
+
+  /* Cores */
+  --color-primary: #4f4f4f; /* Verde */
+  --color-secondary: #233f5c; /* Azul */
+}

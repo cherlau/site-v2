@@ -1,0 +1,39 @@
+* {
+  color: var(--color-primary);
+}
+
+.mb-1 {
+  margin-bottom: 8px;
+}
+
+.mb-2 {
+  margin-bottom: 18px;
+}
+
+.mb-3 {
+  margin-bottom: 28px;
+}
+
+/* hightlight do texto*/
+.hl {
+  color: var(--color-secondary);
+  font-weight: 700;
+}
+
+section > * {
+  padding: var(--section-padding);
+}
+
+.content {
+  padding: var(--content-padding);
+}
+
+.round-button {
+  display: inline-block;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.round-button:hover {
+  cursor: pointer;
+}
